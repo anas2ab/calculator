@@ -1,0 +1,56 @@
+
+.center {
+	margin-top: 20vh;
+	margin-left: 35vw;
+}
+#output {
+	text-align: right;
+	font-size: 20px;
+	width: 40%;
+	margin-bottom: 10px;
+	background-color: #fdfffc;
+
+    font-family: 'Orbitron', sans-serif;
+
+
+}	
+#clear {
+	background-color: #c1292e;
+	color: white;
+}
+
+.vertical-center {
+	margin-top: 50px;
+}
+
+.first {
+	margin-top : 5px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #235789;
+  padding: 10px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+
+}
+
+.btn {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#footer {
+	font-family: 'Satisfy', cursive;
+	font-size: 20px;
+}
